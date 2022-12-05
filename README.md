@@ -2,5 +2,5 @@
 Activities from the book Pro Asp NET Core 6
 
 
-# Essencial C# Features (LanguageFeature) -> Chapter V
+# Testing ASP.NET Core Applications -> Chapter VI
  * Contents 
