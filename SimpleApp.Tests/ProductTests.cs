@@ -29,8 +29,17 @@ namespace SimpleApp.Tests
             p.Price = 50M;
 
             // Assert
-            Assert.Equal(100M, p.Price);
+            Assert.Equal(50M, p.Price);
 
+        }
+        [Fact]
+        public void IsGreaterThanFifty()
+        {
+            // Arrange / Act
+            var p = new Product { Name = "Test", Price = 52 };
+
+            Assert.True(p.Price > 50);
+            
         }
     }
 
